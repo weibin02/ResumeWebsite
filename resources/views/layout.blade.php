@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title') - Wei Bin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -14,13 +15,13 @@
     <!-- Sidebar -->
     <div class="sidebar position-fixed">
         <div class="text-center mt-2">
-            <img src="{{ asset('images/photo.jpg') }}" class="img-fluid" style="width: 160px;" alt="Profile Photo">
+            <img src="{{ asset('images/profile_photo.jpg') }}" class="img-fluid" style="width: 160px;" alt="Profile Photo">
             <h4 class="mt-3 fw-bold" style="font-size: 23px">YEOH WEI BIN</h4>
             <p>Software Engineer | Passionate Coder</p>
             <div class="social-links mt-3">
-                <a href="mailto:weibin5369@gmail.com" class="text-dark mx-2"><i class="bi bi-envelope-fill" style="font-size: 26px"></i></a>
                 <a href="https://linkedin.com/in/weibin02" target="_blank" class="text-dark mx-2"><i class="bi bi-linkedin" style="font-size: 26px"></i></a>
                 <a href="https://github.com/weibin02" target="_blank" class="text-dark mx-2"><i class="bi bi-github" style="font-size: 26px"></i></a>
+                <a href="https://www.instagram.com/yweibinn/" class="text-dark mx-2"><i class="bi bi-instagram" style="font-size: 26px"></i></a>
                 <a href="https://facebook.com/yeoh.weibin.7" target="_blank" class="text-dark mx-2"><i class="bi bi-facebook" style="font-size: 26px"></i></a>
             </div>
         </div>
@@ -38,6 +39,8 @@
     <div class="main-content">
         @yield('content')
     </div>
+
+    
 
 </body>
 </html>

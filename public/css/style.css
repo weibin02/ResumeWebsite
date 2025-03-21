@@ -1,3 +1,10 @@
+body {
+    font-family: 'Roboto', sans-serif !important; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif !important; 
+}
 /* Sidebar */
 .sidebar {
     width: 250px;
@@ -12,20 +19,34 @@
     color: gray;
     text-decoration: none;
 }
-
 .sidebar .nav li a:hover,
 .sidebar .nav li a:focus,
 .sidebar .nav li a.active {
     color: black; 
 }
 
-
-/* Main Content */
 .main-content {
     margin-left: 270px;
     padding: 20px;
 }
-.section {
+section {
+    padding-top: 30px;
+}
+.btn-custom {
+    border-color: black !important;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #D6CDEA !important; 
+    transform: translateY(-2px);
+}
+
+#about p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+/* .section {
     margin-bottom: 50px;
 }
 .timeline {
@@ -43,7 +64,8 @@
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 20px;
-}
+} */
+
 
 
 
