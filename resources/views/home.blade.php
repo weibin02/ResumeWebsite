@@ -31,7 +31,7 @@
             </div>
             <div class="card-footer text-muted">
                 <a href="mailto:weibin5369@gmail.com" class="btn btn-custom btn-sm">Contact Me</a>
-                <a href="#resume" class="btn btn-custom btn-sm">View Resume</a>
+                <a href="{{ asset('resume/weibin_resume_v2.pdf') }}" target="_blank" class="btn btn-custom btn-sm">View Resume</a>
             </div>
         </div>
     </section>
@@ -104,7 +104,7 @@
     <!-- Resume Section -->
     <section id="resume" class="mb-5">
         <h2 class="mb-3">Resume</h2>
-        <a href="{{ asset('resume/YeohWeiBin_Resume.pdf') }}" class="btn btn-outline-primary" target="_blank">
+        <a href="{{ asset('resume/weibin_resume_v2.pdf') }}" class="btn btn-outline-primary" download>
             <i class="bi bi-download"></i> Download My Resume
         </a>
     </section>
