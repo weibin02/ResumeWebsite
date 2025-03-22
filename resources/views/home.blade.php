@@ -38,7 +38,7 @@
         <div class="mt-4 mt-5">
             <div class="row">
                 <div class="col-md-6">
-                    <h6 class="fs-4"><i class="bi bi-controller"></i> Hobbies</h6>
+                    <h2><i class="bi bi-controller"></i> Hobbies</h2>
                     <ul class="list-unstyled">
                         <li><i class="bi bi-trophy me-2 text-primary"></i> Badminton</li>
                         <li><i class="bi bi-dribbble me-2 text-danger"></i> Basketball</li>
@@ -50,7 +50,7 @@
 
                 <!-- Interests -->
                 <div class="col-md-6">
-                    <h6 class="fs-4"><i class="bi bi-lightbulb"></i> Interests</h6>
+                    <h2><i class="bi bi-lightbulb"></i> Interests</h2>
                     <ul class="list-unstyled">
                         <li><i class="bi bi-code-slash me-2 text-primary"></i> Programming</li>
                         <li><i class="bi bi-cpu me-2 text-secondary"></i> Software</li>
@@ -64,7 +64,7 @@
 
         <!-- Language Proficiency Section -->
         <div class="mt-5">
-            <h5 class="mb-3 fs-4">Language Proficiency</h5>
+            <h2 class="mb-3">Language Proficiency</h2>
             <div class="row">
                 <div class="col-md-6">
                     <h6><i class="bi bi-translate fs-4 me-2"></i> English</h6>
@@ -94,32 +94,182 @@
                 </div>
             </div>
         </div>
-
-
-
     </section>
-
-
-
 
     <!-- Skills Section -->
     <section id="skills" class="mb-5">
         <h2 class="mb-3">Skills</h2>
-        <div class="row">
-            <div class="col-md-6">
-                <ul>
-                    <li>Java, C++, Python, PHP</li>
-                    <li>JavaScript, HTML, CSS, SQL</li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <ul>
-                    <li>React Native, Laravel, Flask</li>
-                    <li>JUnit, Docker, Git, UML</li>
-                </ul>
+        <div class="row g-5"> 
+            <div class="col-md-4 mb-3">
+                <h6 class="d-flex align-items-center">
+                    <div class="d-flex flex-column">
+                        <div>
+                            <i class="fab fa-java fs-4 me-2"></i>
+                            <i class="fab fa-cuttlefish fs-4 me-2"></i>
+                            <i class="fab fa-microsoft fs-4 me-2"></i>
+                        </div>
+                        <div>
+                            <h6 class="mt-2">Java | C++ | JUnit 4 | C#</h6>
+                        </div>
+                    </div>
+                </h6>
+                <div class="progress" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar bg-primary" style="background: linear-gradient(90deg, #2563EB, #3B82F6, #60A5FA); width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress mt-1" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar bg-primary" style="background: linear-gradient(90deg, #2563EB, #3B82F6, #60A5FA); width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress mt-1" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar" style="width: 55%; background: linear-gradient(90deg, #FDD835, #FFB300);" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress mt-1" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar" style="width: 40%; background: linear-gradient(90deg, #FF7043, #FF5722);;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>  
+            
+            <div class="col-md-4 mb-3">
+                <h6 class="d-flex align-items-center">
+                    <div class="d-flex flex-column">
+                        <div>
+                            <i class="fab fa-html5 fs-4 me-2"></i>                       
+                            <i class="fab fa-php fs-4 me-2"></i> 
+                            <i class="fab fa-js-square fs-4 me-2"></i> 
+                            <i class="fab fa-css3-alt fs-4 me-2"></i>                          
+                        </div>
+                        <div>
+                            <h6 class="mt-2">HTML | PHP | JavaScript | CSS</h6>
+                        </div>
+                    </div>
+                </h6>
+                <div class="progress" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar bg-primary" style="background: linear-gradient(90deg, #2563EB, #3B82F6, #60A5FA); width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress mt-1" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar" style="width: 55%; background: linear-gradient(90deg, #FDD835, #FFB300);" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress mt-1" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar bg-primary" style="background: linear-gradient(90deg, #2563EB, #3B82F6, #60A5FA); width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress mt-1" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar bg-primary" style="background: linear-gradient(90deg, #2563EB, #3B82F6, #60A5FA); width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>    
+            
+            <div class="col-md-4 mb-3">
+                <h6 class="d-flex align-items-center">
+                    <div class="d-flex flex-column">
+                        <div>
+                            <i class="fab fa-laravel fs-4 me-2"></i>                         
+                            <i class="fab fa-react fs-4 me-2"></i> 
+                            <i class="fab fa-bootstrap fs-4 me-2"></i>
+                        </div>
+                        <div>
+                            <h6 class="mt-2">Laravel | React Native | Bootstrap</h6>
+                        </div>
+                    </div>
+                </h6>
+                <div class="progress" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar bg-primary" style="background: linear-gradient(90deg, #2563EB, #3B82F6, #60A5FA); width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress mt-1" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar bg-primary" style="background: linear-gradient(90deg, #2563EB, #3B82F6, #60A5FA); width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress mt-1" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar" style="width: 65%; background: linear-gradient(90deg, #FDD835, #FFB300);" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>    
+
+            <div class="col-md-4 mb-3">
+                <h6 class="d-flex align-items-center">
+                    <div class="d-flex flex-column">
+                        <div>
+                        <i class="fab fa-python fs-4 me-2"></i>                 
+                        </div>
+                        <div>
+                            <h6 class="mt-2">Python | Flask</h6>
+                        </div>
+                    </div>
+                </h6>
+                <div class="progress" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar" style="width: 55%; background: linear-gradient(90deg, #FDD835, #FFB300);" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress mt-1" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar" style="width: 55%; background: linear-gradient(90deg, #FDD835, #FFB300);" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>   
+
+            <div class="col-md-4 mb-3">
+                <h6 class="d-flex align-items-center">
+                    <div class="d-flex flex-column">
+                        <div>
+                        <i class="fab fa-github fs-4 me-2"></i>
+                        <i class="fab fa-docker fs-4 me-2"></i>
+                        </div>
+                        <div>
+                            <h6 class="mt-2">Git | Docker</h6>
+                        </div>
+                    </div>
+                </h6>
+                <div class="progress" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar bg-primary" style="background: linear-gradient(90deg, #2563EB, #3B82F6, #60A5FA); width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress mt-1" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar" style="width: 65%; background: linear-gradient(90deg, #FDD835, #FFB300);" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>   
+
+            <div class="col-md-4 mb-3">
+                <h6 class="d-flex align-items-center">
+                    <div class="d-flex flex-column">
+                        <div>
+                            <i class="fas fa-database fs-4 me-2"></i>
+                        </div>
+                        <div>
+                            <h6 class="mt-2">SQL</h6>
+                        </div>
+                    </div>
+                </h6>
+                <div class="progress" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar bg-primary" style="background: linear-gradient(90deg, #2563EB, #3B82F6, #60A5FA); width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>   
+
+            <div class="col-md-4 mb-3">
+                <h6 class="d-flex align-items-center">
+                    <div class="d-flex flex-column">
+                        <div>
+                            <i class="fas fa-sitemap fs-4 me-2"></i>
+                        </div>
+                        <div>
+                            <h6 class="mt-2">UML</h6>
+                        </div>
+                    </div>
+                </h6>
+                <div class="progress" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar bg-primary" style="background: linear-gradient(90deg, #2563EB, #3B82F6, #60A5FA); width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div> 
+            
+            <div class="col-md-4 mb-3">
+                <h6 class="d-flex align-items-center">
+                    <div class="d-flex flex-column">
+                        <div>
+                            <i class="fas fa-cogs fs-4 me-2"></i>
+                        </div>
+                        <div>
+                            <h6 class="mt-2">RESTful API</h6>
+                        </div>
+                    </div>
+                </h6>
+                <div class="progress" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                    <div class="progress-bar bg-primary" style="background: linear-gradient(90deg, #2563EB, #3B82F6, #60A5FA); width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
             </div>
         </div>
     </section>
+
+
+
 
     <!-- Experience Section -->
     <section id="experience" class="mb-5">
