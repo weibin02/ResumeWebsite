@@ -9,8 +9,7 @@
                 <h5 class="card-title mb-0">Personal Information</h5>
                 <p class="card-subtitle mb-0">Learn more about me</p>
             </div>
-            <div class="card-body" style="padding: 2rem";
-">
+            <div class="card-body" style="padding: 2rem";>
                 <div class="row">
                 <div class="col-md-4">
                     <p><i class="bi bi-person-circle"></i> <strong>Age:</strong> 23</p>
@@ -64,7 +63,7 @@
 
         <!-- Language Proficiency Section -->
         <div class="mt-5">
-            <h2 class="mb-3">Language Proficiency</h2>
+            <h2 class="mb-3 text-center">Language Proficiency</h2>
             <div class="row">
                 <div class="col-md-6">
                     <h6><i class="bi bi-translate fs-4 me-2"></i> English</h6>
@@ -98,7 +97,7 @@
 
     <!-- Skills Section -->
     <section id="skills" class="mb-5">
-        <h2 class="mb-3">Skills</h2>
+        <h2 class="mb-3 text-center">Skills</h2>
         <div class="row g-5"> 
             <div class="col-md-4 mb-3">
                 <h6 class="d-flex align-items-center">
@@ -268,24 +267,39 @@
         </div>
     </section>
 
-
-
-
-    <!-- Experience Section -->
+    <!-- Timeline: Experience Section -->
     <section id="experience" class="mb-5">
-        <h2 class="mb-3">Experience</h2>
-        <div class="card mb-3">
-            <div class="card-body">
-                <h5 class="card-title">SIM IT SDN BHD - Internship</h5>
-                <p class="card-text"><strong>Role:</strong> R&D & Customer Support</p>
-                <p class="card-text">
-                    Worked on data migration, frontend UI changes, bug fixes, and tools like Jaspersoft Studio,
-                    Dolphin Scheduler, n8n, and Docker.
-                </p>
-                <p class="card-text"><small class="text-muted">June 2023 - September 2023</small></p>
+        <h2 class="mb-3 text-center">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-point"></div>
+                <div class="timeline-content row align-items-center">
+                    <div class="col-md-6">
+                        <div class="m-2">
+                            <h6 class="mb-3" style="color:rgb(113, 89, 157); font-weight: bold">Oct 2023 - Jan 2024</h6>
+                            <h5>SIM IT SDN BHD</h5>
+                            <p class="text-muted">Software Engineer Intern</p>
+                            <ul class="experience-list">
+                                <li>R&D team anc Client Support team</li>
+                                <li>Handle customer change request</li>
+                                <li>Data migration</li>
+                                <li>Research</li>
+                                <li>UI Frontend Screen Modification</li>
+                                <li>Bug Fixing</li>
+                            </ul>
+                            <p class="text-muted"><strong>Software / Tools: </strong>Jaspersoft Studio | jrxml file | Dolphin Scheduler | n8n | Docker | Postman</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div class="m-2">
+                            <img src="{{ asset('images/simit_logo.jpg') }}" alt="SIM IT Logo" class="img-fluid" style="width: 40%">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
 
     <!-- Education Section -->
     <section id="education" class="mb-5">
