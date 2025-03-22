@@ -33,33 +33,6 @@
                 <a href="{{ asset('resume/weibin_resume_v2.pdf') }}" target="_blank" class="btn btn-custom btn-sm">View Resume</a>
             </div>
         </div>
-        <!-- Hobbies and Interests -->
-        <div class="mt-4 mt-5">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2><i class="bi bi-controller"></i> Hobbies</h2>
-                    <ul class="list-unstyled">
-                        <li><i class="bi bi-trophy me-2 text-primary"></i> Badminton</li>
-                        <li><i class="bi bi-dribbble me-2 text-danger"></i> Basketball</li>
-                        <li><i class="bi bi-emoji-smile me-2 text-warning"></i> Ping Pong</li>
-                        <li><i class="bi bi-puzzle me-2 text-success"></i> Chess</li>
-                        <li><i class="bi bi-compass me-2 text-info"></i> Adventure</li>
-                    </ul>
-                </div>
-
-                <!-- Interests -->
-                <div class="col-md-6">
-                    <h2><i class="bi bi-lightbulb"></i> Interests</h2>
-                    <ul class="list-unstyled">
-                        <li><i class="bi bi-code-slash me-2 text-primary"></i> Programming</li>
-                        <li><i class="bi bi-cpu me-2 text-secondary"></i> Software</li>
-                        <li><i class="bi bi-currency-dollar me-2 text-success"></i> Finance</li>
-                        <li><i class="bi bi-globe-americas me-2 text-info"></i> Mystery of Universe and Nature</li>
-                        <li><i class="bi bi-journal-bookmark me-2 text-danger"></i> History</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
 
         <!-- Language Proficiency Section -->
         <div class="mt-5">
@@ -93,11 +66,48 @@
                 </div>
             </div>
         </div>
+        
+        <!-- Hobbies and Interests -->
+        <div class="mt-5 py-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2><i class="bi bi-controller"></i> Hobbies</h2>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-trophy me-2 text-primary"></i> Badminton</li>
+                        <li><i class="bi bi-dribbble me-2 text-danger"></i> Basketball</li>
+                        <li><i class="bi bi-emoji-smile me-2 text-warning"></i> Ping Pong</li>
+                        <li><i class="bi bi-puzzle me-2 text-success"></i> Chess</li>
+                        <li><i class="bi bi-compass me-2 text-info"></i> Adventure</li>
+                    </ul>
+                </div>
+
+                <!-- Interests -->
+                <div class="col-md-6">
+                    <h2><i class="bi bi-lightbulb"></i> Interests</h2>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-code-slash me-2 text-primary"></i> Programming</li>
+                        <li><i class="bi bi-cpu me-2 text-secondary"></i> Software</li>
+                        <li><i class="bi bi-currency-dollar me-2 text-success"></i> Finance</li>
+                        <li><i class="bi bi-globe-americas me-2 text-info"></i> Mystery of Universe and Nature</li>
+                        <li><i class="bi bi-journal-bookmark me-2 text-danger"></i> History</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </section>
+
+
+    <div style="box-shadow: 6px 4px 6px 4px rgba(0, 0, 0, 0.1);
+        width: 100vw;
+        position: absolute;
+        z-index: -1;
+        left: 0;
+   "></div>
 
     <!-- Skills Section -->
     <section id="skills" class="mb-5">
-        <h2 class="mb-3 text-center">Skills</h2>
+        <h2 class="mb-3 mt-3 text-center">Skills</h2>
         <div class="row g-5"> 
             <div class="col-md-4 mb-3">
                 <h6 class="d-flex align-items-center">
@@ -267,16 +277,23 @@
         </div>
     </section>
 
+    <div style="box-shadow: 6px 4px 6px 4px rgba(0, 0, 0, 0.1);
+        width: 100vw;
+        position: absolute;
+        z-index: -1;
+        left: 0;
+   "></div>
+
     <!-- Timeline: Experience Section -->
     <section id="experience" class="mb-5">
-        <h2 class="mb-3 text-center">Experience</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-point"></div>
-                <div class="timeline-content row align-items-center">
+        <h2 class="mb-3 mt-3 text-center">Experience</h2>
+        <div class="timeline-exp">
+            <div class="timeline-item-exp">
+                <div class="timeline-point-exp"></div>
+                <div class="timeline-content-exp row align-items-center">
                     <div class="col-md-6">
                         <div class="m-2">
-                            <h6 class="mb-3" style="color:rgb(113, 89, 157); font-weight: bold">Oct 2023 - Jan 2024</h6>
+                            <h6 class="mb-3 fs-5" style="color:rgb(207, 108, 252); font-weight: bold">Oct 2023 - Jan 2024</h6>
                             <h5>SIM IT SDN BHD</h5>
                             <p class="text-muted">Software Engineer Intern</p>
                             <ul class="experience-list">
@@ -300,20 +317,125 @@
         </div>
     </section>
 
+    <div style="box-shadow: 6px 4px 6px 4px rgba(0, 0, 0, 0.1);
+        width: 100vw;
+        position: absolute;
+        z-index: -1;
+        left: 0;
+   "></div>
 
-    <!-- Education Section -->
+    <!-- Timeline: Education Section -->
     <section id="education" class="mb-5">
-        <h2 class="mb-3">Education</h2>
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Universiti Tunku Abdul Rahman (UTAR)</h5>
-                <p class="card-text">
-                    Bachelor of Science (Hons) in Software Engineering<br>
-                    <strong>Graduated:</strong> May 2024 | <strong>CGPA:</strong> 3.7229
-                </p>
+        <h2 class="mb-3 mt-3 text-center">Education</h2>
+
+        <div class="position-relative style="padding-left: 20px;>
+        <div class="timeline-line-edu"></div> <!-- 🔧 This will be the vertical line -->
+            <div class="timeline-edu">
+                <div class="timeline-item-edu">
+                    <div class="timeline-content-edu row align-items-center">
+                        <div>
+                            <div class="m-2">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h6 class="mb-4 fs-5" style="color:rgb(207, 108, 252); font-weight: bold">2021 - 2024</h6>
+                                    <div class="title" style="background-color: rgb(207, 108, 252);">
+                                        <span class="text-white">Bachelor's Degree</span>
+                                    </div>
+                                </div>
+                                <p class="mb-1"><strong class="fs-5">Universiti Tunku Abdul Rahman (UTAR)</strong></p>
+                                <p class="text-muted mb-2">Selangor, Malaysia</p>
+                                <p class="mb-0"><strong>Bachelor of Science (Honours) Software Engineering</strong></p>
+                                <p><strong>CGPA: 3.7229</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="timeline-point-edu right"></div>
+                </div>
+            </div>
+
+            <div class="timeline-edu">
+                <div class="timeline-item-edu">
+                    <div class="timeline-content-edu row align-items-center">
+                        <div>
+                            <div class="m-2">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h6 class="mb-4 fs-5" style="color:rgb(207, 108, 252); font-weight: bold">2020 - 2021</h6>
+                                    <div class="title" style="background-color: rgb(252, 108, 197);">
+                                        <span class="text-white">Foundation</span>
+                                    </div>
+                                </div>
+                                <p class="mb-1"><strong class="fs-5">Universiti Tunku Abdul Rahman (UTAR)</strong></p>
+                                <p class="text-muted mb-2">Selangor, Malaysia</p>
+                                <p class="mb-0"><strong>Foundation in Science</strong></p>
+                                <p><strong>CGPA: 3.9068</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="timeline-point-edu right"></div>
+                </div>
+            </div>
+
+            <div class="timeline-edu">
+                <div class="timeline-item-edu">
+                    <div class="timeline-content-edu row align-items-center">
+                        <div>
+                            <div class="m-2">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h6 class="mb-4 fs-5" style="color:rgb(207, 108, 252); font-weight: bold">2015 - 2019</h6>
+                                    <div class="title" style="background-color: rgb(108, 187, 252);">
+                                        <span class="text-white">Secondary</span>
+                                    </div>
+                                </div>
+                                <p class="mb-1"><strong class="fs-5">SMK Layang-Layang</strong></p>
+                                <p class="text-muted mb-2">Kluang, Malaysia</p>
+                                <p class="mb-0"><strong>SPM</strong></p>
+                                <p><strong>Results: 9As + 1B</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="timeline-point-edu right"></div>
+                </div>
+            </div>
+
+            <div class="timeline-edu">
+                <div class="timeline-item-edu">
+                    <div class="timeline-content-edu row align-items-center">
+                        <div>
+                            <div class="m-2">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h6 class="mb-4 fs-5" style="color:rgb(207, 108, 252); font-weight: bold">2009 - 2014</h6>
+                                    <div class="title" style="background-color: rgb(252, 146, 108);">
+                                        <span class="text-white">Primary</span>
+                                    </div>
+                                </div>
+                                <p class="mb-1"><strong class="fs-5">SJK (C) Layang-Layang</strong></p>
+                                <p class="text-muted mb-2">Kluang, Malaysia</p>
+                                <p class="mb-0"><strong>UPSR</strong></p>
+                                <p><strong>Results: 5A + 2B</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="timeline-point-edu right"></div>
+                </div>
             </div>
         </div>
+
+
     </section>
+
+    <div style="box-shadow: 6px 4px 6px 4px rgba(0, 0, 0, 0.1);
+        width: 100vw;
+        position: absolute;
+        z-index: -1;
+        left: 0;
+   "></div>
 
     <!-- Projects Section -->
     <section id="projects" class="mb-5">

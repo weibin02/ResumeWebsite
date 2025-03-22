@@ -51,27 +51,30 @@ section {
     margin-bottom: 0.4rem;
     font-size: 1.1rem;
 }
-.timeline {
+.timeline-exp, .timeline-edu {
     position: relative;
     padding: 20px 0px;
     margin: 0 auto;
     max-width: 80%;
 }
 
-.timeline-item {
+.timeline-item-exp {
     position: relative;
 }
-
-.timeline-point {
+.timeline-item-edu {
+    position: relative;
+    left: -8%;
+}
+.timeline-point-exp {
     position: absolute;
     top: 50%;
     width: 4%;  
     height: 12%;  
-    background-color: #B2A5D4;
+    background-color: rgb(207, 108, 252);
     border-radius: 50%;
 }
 
-.timeline-content {
+.timeline-content-exp, .timeline-content-edu {
     padding: 15px;
     background-color: #ffffff;
     border-radius: 8px;
@@ -79,29 +82,29 @@ section {
     position: relative;
 }
 
-.timeline-content h5 {
+.timeline-content-exp h5{
     font-weight: 600;
 }
 
-.timeline-item:nth-child(even) .timeline-point {
+.timeline-item-exp:nth-child(even) .timeline-point-exp {
     left: 50%;
     transform: translateX(-50%);
 }
 
-.timeline-item:nth-child(odd) .timeline-point {
+.timeline-item-exp:nth-child(odd) .timeline-point-exp {
     left: 0;
     transform: translateX(-100%);
 }
 
-.timeline-item:nth-child(odd) .timeline-content {
+.timeline-item-exp:nth-child(odd) .timeline-content-exp {
     margin-left: 50px;
 }
 
-.timeline-item:nth-child(even) .timeline-content {
+.timeline-item-exp:nth-child(even) .timeline-content-exp {
     margin-right: 50px;
 }
 
-.timeline-item .timeline-content p {
+.timeline-item-exp .timeline-content-exp p {
     margin-bottom: 10px;
 }
 
@@ -112,6 +115,36 @@ section {
 
 .experience-list li {
     color: #555;
+}
+
+.timeline-point-edu {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4%;
+    height: 12%;
+    border-radius: 50%;
+    background-color: rgb(207, 108, 252);
+    z-index: 1;
+}
+
+.timeline-point-edu.right {
+    right: -5%; 
+}
+
+.title {
+   padding: 3px 8px;
+   border-radius: 25px;
+}
+.timeline-line-edu {
+    position: absolute;
+    top: 11%;
+    right: 90px; 
+    width: 4px;
+    height: 76%;
+    background-color: rgb(207, 108, 252); /* your timeline color */
+    z-index: 0;
+    border-radius: 2px;
 }
 /* .section {
     margin-bottom: 50px;
