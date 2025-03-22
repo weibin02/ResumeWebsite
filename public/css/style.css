@@ -74,7 +74,7 @@ section {
     border-radius: 50%;
 }
 
-.timeline-content-exp, .timeline-content-edu {
+.timeline-content-exp, .timeline-content-edu, .project-container {
     padding: 15px;
     background-color: #ffffff;
     border-radius: 8px;

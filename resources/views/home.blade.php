@@ -438,17 +438,37 @@
    "></div>
 
     <!-- Projects Section -->
-    <section id="projects" class="mb-5">
-        <h2 class="mb-3">Projects</h2>
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Steel Product Grading System (SteelGrade App)</h5>
-                <p class="card-text">
-                    A React Native app integrated with AI algorithms for automatic steel grading for CSC Steel Holdings Berhad.
-                </p>
-            </div>
-        </div>
+    <section id="projects" class="mb-5 px-5 py-1">
+    <h2 class="mb-3 mt-5 text-center">Projects</h2>
+    <div class="project-container row align-items-center mt-5 mb-5" style="box-shadow: 6px 6px 6px 6px rgba(215, 35, 243, 0.1)">
+        <p class="mb-1"><strong class="fs-5">Steel Product Grading System (Steel Grade App)</strong></p>
+        <p class="text-muted mb-2">Final Year Project</p>
+        <p class="mb-0"><strong>Skiils: </strong>React Native | Flask | Python | Machine Learning | SQLite | REST API</p>
+        <p class="mt-1 mb-0"><em>* View details in resume attached</em></p>
+    </div>
+
+    <div class="project-container row align-items-center mt-5 mb-5" style="box-shadow: 6px 6px 6px 6px rgba(215, 35, 243, 0.1)">
+        <p class="mb-1"><strong class="fs-5">Online Badminton Shop</strong></p>
+        <p class="text-muted mb-2">University Mini Project / Assignment</p>
+        <p class="mb-0"><strong>Skiils: </strong>: HTML5 | PHP | CSS | JavaScript | AJAX | SQL</p>
+        <p class="mt-1 mb-0"><em>* View details in resume attached</em></p>
+    </div>
+
+    <div class="project-container row align-items-center mt-5 mb-5" style="box-shadow: 6px 6px 6px 6px rgba(215, 35, 243, 0.1)">
+        <p class="mb-1"><strong class="fs-5">Grocery Shopping Application</strong></p>
+        <p class="text-muted mb-2">University Mini Project / Assignment</p>
+        <p class="mb-0"><strong>Skiils: </strong>: React Native | SQLite</p>
+        <p class="mt-1 mb-0"><em>* View details in resume attached</em></p>
+    </div>
+
     </section>
+
+    <div style="box-shadow: 6px 4px 6px 4px rgba(0, 0, 0, 0.1);
+        width: 100vw;
+        position: absolute;
+        z-index: -1;
+        left: 0;
+   "></div>
 
     <!-- Resume Section -->
     <section id="resume" class="mb-5">
