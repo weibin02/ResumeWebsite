@@ -146,6 +146,41 @@ section {
     z-index: 0;
     border-radius: 2px;
 }
+
+.custom-dl-btn {
+    border: 2px solid rgb(175, 51, 232) !important; 
+    background-color:  transparent !important;
+    color: rgb(175, 51, 232) !important;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.custom-dl-btn i {
+    transition: color 0.3s ease;
+}
+
+.custom-dl-btn:hover {
+    background-color: rgb(175, 51, 232) !important;
+    color: white !important;
+}
+
+.custom-dl-btn:hover i {
+    color: white !important;
+}
+
+.custom-footer {
+    position: relative;
+    bottom: 0;
+    left: 250px; 
+    width: calc(100% - 250px); 
+    color: white;
+    background: rgb(202, 178, 232);
+    font-size: 17px;
+    z-index: 1000;
+    font-weight: bold;
+}
+
+
 /* .section {
     margin-bottom: 50px;
 }

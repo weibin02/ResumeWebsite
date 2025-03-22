@@ -439,27 +439,27 @@
 
     <!-- Projects Section -->
     <section id="projects" class="mb-5 px-5 py-1">
-    <h2 class="mb-3 mt-5 text-center">Projects</h2>
-    <div class="project-container row align-items-center mt-5 mb-5" style="box-shadow: 6px 6px 6px 6px rgba(215, 35, 243, 0.1)">
-        <p class="mb-1"><strong class="fs-5">Steel Product Grading System (Steel Grade App)</strong></p>
-        <p class="text-muted mb-2">Final Year Project</p>
-        <p class="mb-0"><strong>Skiils: </strong>React Native | Flask | Python | Machine Learning | SQLite | REST API</p>
-        <p class="mt-1 mb-0"><em>* View details in resume attached</em></p>
-    </div>
+        <h2 class="mb-3 mt-5 text-center">Projects</h2>
+        <div class="project-container row align-items-center mt-5 mb-5" style="box-shadow: 6px 6px 6px 6px rgba(215, 35, 243, 0.1)">
+            <p class="mb-1"><strong class="fs-5">Steel Product Grading System (Steel Grade App)</strong></p>
+            <p class="text-muted mb-2">Final Year Project</p>
+            <p class="mb-0"><strong>Skiils: </strong>React Native | Flask | Python | Machine Learning | SQLite | REST API</p>
+            <p class="mt-1 mb-0"><em>* View details in resume attached</em></p>
+        </div>
 
-    <div class="project-container row align-items-center mt-5 mb-5" style="box-shadow: 6px 6px 6px 6px rgba(215, 35, 243, 0.1)">
-        <p class="mb-1"><strong class="fs-5">Online Badminton Shop</strong></p>
-        <p class="text-muted mb-2">University Mini Project / Assignment</p>
-        <p class="mb-0"><strong>Skiils: </strong>: HTML5 | PHP | CSS | JavaScript | AJAX | SQL</p>
-        <p class="mt-1 mb-0"><em>* View details in resume attached</em></p>
-    </div>
+        <div class="project-container row align-items-center mt-5 mb-5" style="box-shadow: 6px 6px 6px 6px rgba(215, 35, 243, 0.1)">
+            <p class="mb-1"><strong class="fs-5">Online Badminton Shop</strong></p>
+            <p class="text-muted mb-2">University Mini Project / Assignment</p>
+            <p class="mb-0"><strong>Skiils: </strong>: HTML5 | PHP | CSS | JavaScript | AJAX | SQL</p>
+            <p class="mt-1 mb-0"><em>* View details in resume attached</em></p>
+        </div>
 
-    <div class="project-container row align-items-center mt-5 mb-5" style="box-shadow: 6px 6px 6px 6px rgba(215, 35, 243, 0.1)">
-        <p class="mb-1"><strong class="fs-5">Grocery Shopping Application</strong></p>
-        <p class="text-muted mb-2">University Mini Project / Assignment</p>
-        <p class="mb-0"><strong>Skiils: </strong>: React Native | SQLite</p>
-        <p class="mt-1 mb-0"><em>* View details in resume attached</em></p>
-    </div>
+        <div class="project-container row align-items-center mt-5 mb-5" style="box-shadow: 6px 6px 6px 6px rgba(215, 35, 243, 0.1)">
+            <p class="mb-1"><strong class="fs-5">Grocery Shopping Application</strong></p>
+            <p class="text-muted mb-2">University Mini Project / Assignment</p>
+            <p class="mb-0"><strong>Skiils: </strong>: React Native | SQLite</p>
+            <p class="mt-1 mb-0"><em>* View details in resume attached</em></p>
+        </div>
 
     </section>
 
@@ -472,9 +472,10 @@
 
     <!-- Resume Section -->
     <section id="resume" class="mb-5">
-        <h2 class="mb-3">Resume</h2>
-        <a href="{{ asset('resume/weibin_resume_v2.pdf') }}" class="btn btn-outline-primary" download>
-            <i class="bi bi-download"></i> Download My Resume
+        <h2 class="mb-3 mt-3 text-center">Resume</h2>
+        <a href="{{ asset('resume/weibin_resume_v2.pdf') }}" class="btn custom-dl-btn" download>
+            <span><i class="bi bi-download me-2"></i>Download My Resume</span>
         </a>
     </section>
+
 @endsection

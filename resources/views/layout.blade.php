@@ -41,6 +41,15 @@
         @yield('content')
     </div>
 
+    <!-- Footer -->
+    <!-- Fixed Full-Width Footer -->
+    <footer class="custom-footer text-center py-3">
+        <p class="mb-0">&copy; {{ date('Y') }} YEOH WEI BIN. All rights reserved.</p>
+    </footer>
+
+
+
+
     
 
 </body>
