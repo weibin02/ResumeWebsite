@@ -34,6 +34,69 @@
                 <a href="{{ asset('resume/weibin_resume_v2.pdf') }}" target="_blank" class="btn btn-custom btn-sm">View Resume</a>
             </div>
         </div>
+        <!-- Hobbies and Interests -->
+        <div class="mt-4 mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h6 class="fs-4"><i class="bi bi-controller"></i> Hobbies</h6>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-trophy me-2 text-primary"></i> Badminton</li>
+                        <li><i class="bi bi-dribbble me-2 text-danger"></i> Basketball</li>
+                        <li><i class="bi bi-emoji-smile me-2 text-warning"></i> Ping Pong</li>
+                        <li><i class="bi bi-puzzle me-2 text-success"></i> Chess</li>
+                        <li><i class="bi bi-compass me-2 text-info"></i> Adventure</li>
+                    </ul>
+                </div>
+
+                <!-- Interests -->
+                <div class="col-md-6">
+                    <h6 class="fs-4"><i class="bi bi-lightbulb"></i> Interests</h6>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-code-slash me-2 text-primary"></i> Programming</li>
+                        <li><i class="bi bi-cpu me-2 text-secondary"></i> Software</li>
+                        <li><i class="bi bi-currency-dollar me-2 text-success"></i> Finance</li>
+                        <li><i class="bi bi-globe-americas me-2 text-info"></i> Mystery of Universe and Nature</li>
+                        <li><i class="bi bi-journal-bookmark me-2 text-danger"></i> History</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Language Proficiency Section -->
+        <div class="mt-5">
+            <h5 class="mb-3 fs-4">Language Proficiency</h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <h6><i class="bi bi-translate fs-4 me-2"></i> English</h6>
+                    <div class="progress" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                        <div class="progress-bar" style="width: 80%; background: linear-gradient(135deg, #B5A7D5, #9C89B8);" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            8/10
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <h6><i class="bi bi-translate fs-4 me-2"></i> Mandarin</h6>
+                    <div class="progress" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                        <div class="progress-bar" style="width: 90%; background: linear-gradient(135deg, #B5A7D5, #9C89B8);" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            9/10
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-3">
+                    <h6><i class="bi bi-translate fs-4 me-2"></i> Malay</h6>
+                    <div class="progress" style="height: 20px; border-radius: 10px; background-color: #E9E9FF;">
+                        <div class="progress-bar" style="width: 80%; background: linear-gradient(135deg, #B5A7D5, #9C89B8);" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            8/10
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
     </section>
 
 
