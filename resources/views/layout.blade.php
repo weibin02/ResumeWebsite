@@ -15,7 +15,7 @@
 <body>
 
     <!-- Sidebar -->
-    <div class="sidebar d-none d-md-block position-fixed">
+    <div class="sidebar position-fixed">
         <div class="text-center mt-2">
             <img src="{{ asset('images/profile_photo.jpg') }}" class="img-fluid" style="width: 160px;" alt="Profile Photo">
             <h4 class="mt-3 fw-bold" style="font-size: 23px">YEOH WEI BIN</h4>
