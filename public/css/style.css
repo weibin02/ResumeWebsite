@@ -235,4 +235,14 @@ section {
     .timeline-line-edu {
         display: none;
     }
+    .custom-footer {
+    position: relative;
+    bottom: 0;
+    width: 100%; 
+    color: white;
+    background: rgb(202, 178, 232);
+    font-size: 17px;
+    z-index: 1000;
+    font-weight: bold;
+}
 }
