@@ -5,7 +5,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif !important; 
 }
-/* Sidebar */
 .sidebar {
     width: 250px;
     height: 100vh;
@@ -36,17 +35,14 @@ section {
     border-color: black !important;
     transition: all 0.3s ease;
 }
-
 .btn-custom:hover {
     background-color: #D6CDEA !important; 
     transform: translateY(-2px);
 }
-
 #about p {
     font-size: 1.1rem;
     margin-bottom: 1rem;
 }
-
 #about ul li {
     margin-bottom: 0.4rem;
     font-size: 1.1rem;
@@ -57,7 +53,6 @@ section {
     margin: 0 auto;
     max-width: 80%;
 }
-
 .timeline-item-exp {
     position: relative;
 }
@@ -73,7 +68,6 @@ section {
     background-color: rgb(207, 108, 252);
     border-radius: 50%;
 }
-
 .timeline-content-exp, .timeline-content-edu, .project-container {
     padding: 15px;
     background-color: #ffffff;
@@ -81,42 +75,33 @@ section {
     box-shadow: 6px 4px 6px 4px rgba(0, 0, 0, 0.1);
     position: relative;
 }
-
 .timeline-content-exp h5{
     font-weight: 600;
 }
-
 .timeline-item-exp:nth-child(even) .timeline-point-exp {
     left: 50%;
     transform: translateX(-50%);
 }
-
 .timeline-item-exp:nth-child(odd) .timeline-point-exp {
     left: 0;
     transform: translateX(-100%);
 }
-
 .timeline-item-exp:nth-child(odd) .timeline-content-exp {
     margin-left: 50px;
 }
-
 .timeline-item-exp:nth-child(even) .timeline-content-exp {
     margin-right: 50px;
 }
-
 .timeline-item-exp .timeline-content-exp p {
     margin-bottom: 10px;
 }
-
 .experience-list {
     margin-top: 5px;
     padding-left: 5%; 
 }
-
 .experience-list li {
     color: #555;
 }
-
 .timeline-point-edu {
     position: absolute;
     top: 50%;
@@ -127,11 +112,9 @@ section {
     background-color: rgb(207, 108, 252);
     z-index: 1;
 }
-
 .timeline-point-edu.right {
     right: -5%; 
 }
-
 .title {
    padding: 3px 8px;
    border-radius: 25px;
@@ -146,7 +129,6 @@ section {
     z-index: 0;
     border-radius: 2px;
 }
-
 .custom-dl-btn {
     border: 2px solid rgb(175, 51, 232) !important; 
     background-color:  transparent !important;
@@ -154,20 +136,16 @@ section {
     font-weight: bold;
     transition: all 0.3s ease;
 }
-
 .custom-dl-btn i {
     transition: color 0.3s ease;
 }
-
 .custom-dl-btn:hover {
     background-color: rgb(175, 51, 232) !important;
     color: white !important;
 }
-
 .custom-dl-btn:hover i {
     color: white !important;
 }
-
 .custom-footer {
     position: relative;
     bottom: 0;
@@ -179,27 +157,3 @@ section {
     z-index: 1000;
     font-weight: bold;
 }
-
-
-/* .section {
-    margin-bottom: 50px;
-}
-.timeline {
-    border-left: 3px solid #007bff;
-    padding-left: 20px;
-}
-.timeline-item {
-    margin-bottom: 20px;
-    padding: 10px;
-    background: #f8f9fa;
-    border-radius: 10px;
-}
-.project-card {
-    background: #e3f2fd;
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-} */
-
-
-

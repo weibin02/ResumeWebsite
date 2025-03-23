@@ -42,40 +42,51 @@
     </div>
 
     <!-- Footer -->
-    <!-- Fixed Full-Width Footer -->
     <footer class="custom-footer text-center py-3">
         <p class="mb-0">&copy; {{ date('Y') }} YEOH WEI BIN. All rights reserved.</p>
     </footer>
-
-
-
-
-    
 
 </body>
 </html>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    const sections = document.querySelectorAll("section");
+    const sections = document.querySelectorAll("section[id]");
     const navLinks = document.querySelectorAll("#sidebar-nav a");
 
-    function removeActiveClass() {
-        navLinks.forEach(link => link.classList.remove("active"));
-    }
+    let sectionVisibility = {};
 
-    function setActiveLink() {
-        sections.forEach((section, index) => {
-            const rect = section.getBoundingClientRect();
-            if (rect.top <= 0 && rect.bottom >= 0) {
-                removeActiveClass(); 
-                navLinks[index].classList.add("active"); 
-            }
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            sectionVisibility[entry.target.id] = entry.intersectionRatio;
+
+            // Get the section with the highest visibility ratio
+            const mostVisibleSection = Object.keys(sectionVisibility)
+                .reduce((a, b) => sectionVisibility[a] > sectionVisibility[b] ? a : b);
+
+            // Highlight the corresponding nav link
+            navLinks.forEach(link => {
+                link.classList.toggle("active", link.getAttribute("href") === `#${mostVisibleSection}`);
+            });
         });
+    }, {
+        threshold: buildThresholdList()
+    });
+
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+
+    function buildThresholdList() {
+        // Generates a more detailed list of thresholds
+        const thresholds = [];
+        for (let i = 0; i <= 1.0; i += 0.01) {
+            thresholds.push(i);
+        }
+        return thresholds;
     }
-
-    window.addEventListener("scroll", setActiveLink);
-
-    setActiveLink();
 });
 </script>
+
+
+
