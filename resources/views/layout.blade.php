@@ -67,7 +67,7 @@
             </div>
 
             <ul class="navbar-nav text-center">
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
                 <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
@@ -131,19 +131,29 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.addEventListener('DOMContentLoaded', function () {
-    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-    const navbarCollapse = document.getElementById('mobileNavbar');
+document.addEventListener("DOMContentLoaded", function () {
+    const mobileNavLinks = document.querySelectorAll(".navbar-nav .nav-link");
+    const mobileNavbarCollapse = document.querySelector("#mobileNavbar");
 
-    navLinks.forEach(function (link) {
-        link.addEventListener('click', function () {
-            const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
-            if (bsCollapse) {
+    mobileNavLinks.forEach(link => {
+        link.addEventListener("click", function () {
+            // Remove active class from all links
+            mobileNavLinks.forEach(nav => nav.classList.remove("active"));
+
+            // Add active class to the clicked link
+            this.classList.add("active");
+
+            // Close the navbar after clicking
+            if (mobileNavbarCollapse.classList.contains("show")) {
+                const bsCollapse = new bootstrap.Collapse(mobileNavbarCollapse, {
+                    toggle: true
+                });
                 bsCollapse.hide();
             }
         });
     });
 });
+
 
 </script>
 
